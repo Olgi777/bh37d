@@ -1,2 +1,9 @@
 print('hello world') 
-print('Olgi777')
+print('qqqq')
+print('qqqq')
+print('qqqq')
+print('qqqq')
+print('qqqq')
+print('qqqq')
+print('qqqq')
+
