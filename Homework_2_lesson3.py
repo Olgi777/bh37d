@@ -5,3 +5,5 @@ text = input("Введите текст: ")
 for i in text:
     letter_count = (i, text.count(i))
     print (letter_count)
+
+# Как избавится от задвоения букв и чтобы результат в виде словаря выводился?
