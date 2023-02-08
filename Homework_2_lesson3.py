@@ -3,5 +3,5 @@
 letter_count = {}
 text = input("Введите текст: ")
 for i in text:
-    letter_count = text.count(i)
+    letter_count = (i, text.count(i))
     print (letter_count)
