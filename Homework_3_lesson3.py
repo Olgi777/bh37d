@@ -3,7 +3,5 @@
 
 users = {}
 n = int(input("Введите количество человек: "))
-name = input("Введите имя: ")
-email = input("Введите электронную почту: ")
-users = {i:{name:email} for i in range(n)}
+users = {i:{'name': input("Введите имя: "), 'email': input("Введите электронную почту: ")} for i in range(n)}
 print(users)
