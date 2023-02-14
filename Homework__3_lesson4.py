@@ -2,4 +2,4 @@
 N = int(input("Введи число: "))
 for number in range(2,N):
     if number % 2 == 0:
-        print(number)
+        print(number, end =" ")
