@@ -22,4 +22,4 @@ elif number2 == 0:
     print("На ноль делить нельзя!")
 else:
     print("Ошибка")
-    print(result)
+print(result)
