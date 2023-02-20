@@ -6,15 +6,15 @@
 # while not number.isdigit():
 #     number = input('try again: ')
 
-N = int(input("Введи количество чисел: "))
-M = int(input("Введи число кратности: "))
-K = int(input("Введи число больше которого твое: "))
-while N:
-    if K % M ==0:
-        N-= 1
-        print(K, end=" ")
-        K +=M
-    K+= 1
+# N = int(input("Введи количество чисел: "))
+# M = int(input("Введи число кратности: "))
+# K = int(input("Введи число больше которого твое: "))
+# while N:
+#     if K % M ==0:
+#         N-= 1
+#         print(K, end=" ")
+#         K +=M
+#     K+= 1
 # nambers = []
 # for n in range(100000000000):
 #     if n % M == 0 and n > K:
@@ -56,6 +56,7 @@ from pprint import pprint
 # number = [number for number in range(2,N) if number % 2 == 0]
 # print(number)
 
+#
 
 
 
