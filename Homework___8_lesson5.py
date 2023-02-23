@@ -15,7 +15,7 @@ for country, cities in words.items():
         break
 
 
-    print(country)
+
 
 
 #Вар2

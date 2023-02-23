@@ -15,7 +15,7 @@
 numbers = [*range(10)]
 print(numbers)
 for i in range(len(numbers) // 2):    # доходим до середины списка
-    numbers[i], numbers[~1] = numbers[~1], numbers[i]
+    numbers[i], numbers[~i] = numbers[~i], numbers[i]
 print(numbers)
 
 
