@@ -8,8 +8,8 @@ students = {"id_1": {"name": "Olya", "surname": "Ivanova", "phone": "234568", "e
             "id_3": {"name": "Katya", "surname": "Goncharova", "phone": "369258", "email": "katua@info.com"},
             "id_4": {"name": "Evgeni", "surname": "Potapov", "phone": "741852", " ": "evgeni@info.com"}
             }
-for student in students:
-    print(students[student])
-    for id in students(key):
-        if "email" == " " or "email" not in :
-            print("name")
+for student in students.values():
+    # if not student.get("email"):
+    if student.get("email") == " " or "email" not in student or student.get("email") is None:
+
+        print(student.get("name"))

@@ -57,6 +57,87 @@ from pprint import pprint
 # print(number)
 
 #
+# class RegisterForm
+#
+#     def __init__(self, login, password):
+#         self.login = login
+#         self.password = password
+#
+#     def is_valid(self):
+#         if len(self.login) < 4 or not self.login.isalnum():
+#             return False
+#         if len(self.password) < 8 or self.password.isalnum():
+#             return False
+#         else:
+#             return False
+
+# class Product
+#     def __init__(self, name:str, descr:str, prise:float):
+#         if not isinstance(name, str):
+#             raise TypeError
+#         if not isinstance(descr, str):
+#             raise TypeError
+#         if not isinstance(prise, float):
+#             raise TypeError
+#         if len(name) < 4:
+#             raise ValueError
+#         if prise <= 0:
+#             raise ValueError
+#
+#         self.name = name
+#         self.descr = descr
+#         self.prise = prise
+#
+#     def discount(self, percent):
+#         if not isinstance(percent, (int, float)):
+#             raise TypeError
+#         elif 0 > percent or percent > 25:
+#             raise ValueError
+#         return self.prise * (percent / 100)
+#
+#     def edit_descr(self, descr: str):
+#         if not isinstance(descr, str):
+#             raise TypeError
+#         self.descr = descr
+#
+class Paginator:
+     objs:list[str] = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+     paginate_by:int = 3
+
+     @classmethod
+     def get_page(cls, page:int) -> list[str]:
+         return cls.objs[
+             (page-1) * cls.paginate_by:(page-1) * cls.paginate_by + cls.paginate_by
+         ]
+
+print(Paginator.get_page(2))
+# Написать класс Car
+# Конструктор класса принимает атрибуты:
+# color: str (цвет)
+# count_passenger_seats: int (количество пассажирских мест)
+# is_baby_seat: bool (наличие десткого кресла)
+# is_busy: bool (определяется внутри конструктора со значением False, не принимается на
+# вход)
+# 1.1 Написать магический метод __str__ выводящий форматированную строку с информацией
+# об автомобиле
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

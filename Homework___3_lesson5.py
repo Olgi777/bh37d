@@ -19,4 +19,15 @@ print(numbers)
 N = int(input("Введи шаг: "))
 removal(numbers, N)
 
+# вариант 2
+
+# from collections import deque
+# n = 2
+# numbers = [*range (10)]
+# print(numbers)
+# q = deque(numbers)
+# q.rotate(n)
+# numbers = [*q]
+# print(numbers)
+
 

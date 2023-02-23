@@ -2,38 +2,23 @@
 #использования функции int
 
 
-# def reverse(a):
+# def dec_bin(a: int) -> str:
+#     result = " "
+#     while a > 1:
+#         result = f'{a % 2}' + result
+#         a //= 2
+#     result = f'{a}' + result
+#     return result
 #
-#     #while not a.isdigit():
-#     while not a:
-#         print("Попробуйте еще раз: ")
-#     else:
-#         result = 0
-#         result.append = a // 2
-#         return
-#         print(result)
-#
-#
-# reverse(256)
-#
-#
-# def dec_bin(a):
-#     result = ""
-#     while a:
-#         y = str(a % 2)
-#         result = y + result
-#         a = int(a / 2)
-#     print(result)
-# dec_bin(100)
+# print(dec_bin(14))
 
-def bin_dec(data):
-    number = 0
-    data = ""
-    len_dat = len(data)
-    for i in range(0, len_dat):
-
-        number += (int(data[i]) * (2**(len_dat - i -1)))
-        return number
-    print(number)
-
-bin_dec(101111)
+# def bin_dec(binary: str) -> int:
+#     number = 0
+#     for i in binary:
+#         i = int(i)
+#         number *= 2
+#         number += i
+#     return number
+#
+#
+# print(bin_dec('1110'))

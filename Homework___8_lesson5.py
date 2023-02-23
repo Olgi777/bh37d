@@ -9,5 +9,16 @@ words = {
 city = input("Введи город: ")
 city = city.upper()
 
-for city in words.items():
-    print(words.keys())
+for country, cities in words.items():
+    if city in cities:
+        print(country)
+        break
+
+
+    print(country)
+
+
+#Вар2
+# country = [*filter(lambda x: city in x [1], words.items()), [0], [0]]
+# print(country)
+
