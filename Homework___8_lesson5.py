@@ -22,3 +22,6 @@ for country, cities in words.items():
 # country = [*filter(lambda x: city in x [1], words.items()), [0], [0]]
 # print(country)
 
+
+
+
